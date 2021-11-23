@@ -1,0 +1,44 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+:root {
+	--primary-color: #3d2514;
+	--secondary-color: #ffc045;
+	--third-color: #bf2222;
+	--primary-font: 'AlfaSlabOne', sans-serif;
+	--secondary-font: 'BebasNeueBold', sans-serif;
+	--third-font: 'Montserrat', sans-serif;
+}
+
+html{
+	font-size: 62.5%;
+}
+
+body {
+	font-family: var(--primary-font);
+	line-height: 1;
+}
+
+a{
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+}
+
+
+.wrapper {
+	max-width: 1440px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.container {
+	max-width: 1360px;
+	padding: 0px 15px;
+	margin-left: auto;
+	margin-right: auto;
+}

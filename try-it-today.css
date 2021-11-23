@@ -1,0 +1,30 @@
+.try-it-today{
+	background-color: #fff;
+	float: left;
+	width: 100%;
+	padding-top: 78px;
+	padding-bottom: 70px;
+}
+.burger-container{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.burger-box-img {
+	margin-left: 50px;
+}
+
+.burger-box-img:last-child {
+	display: flex;
+	flex-direction: column;
+
+}
+.burger-box-img img{
+	width: 100%;
+	display: block;
+}
+
+.burger-box-img:last-child img:first-child{
+	margin-bottom: 30px;
+}

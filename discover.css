@@ -1,0 +1,50 @@
+.discover {
+	float: left;
+	width: 100%;
+	background-color: #fff;
+	margin-top: 130px;
+}
+
+.discover-card {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 27px;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.discover-content {
+	width: 45%;
+	padding: 0px 15px;
+}
+
+.discover-image {
+	width: 55%;
+}
+
+.discover-image img {
+	display: block;
+	width: 100%;
+}
+
+.discover-caption {
+	font-family: var(--secondary-font);
+	font-size: 29.17px;
+	color: var(--primary-color);
+	text-transform: uppercase;
+	margin-top: 35px;
+}
+
+.discover-title {
+	font-size: 41.67px;
+	font-weight: 800;
+	text-transform: uppercase;
+	color: var(--primary-color);
+}
+
+.discover-text {
+	font-family: var(--third-font);
+	font-size: 20.83px;
+	line-height: 1.5;
+	margin-top: 40px;
+}

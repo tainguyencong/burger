@@ -1,0 +1,76 @@
+.book-your-table {
+	min-height: 833px;
+	float: left;
+	width: 100%;
+	background: url("./image/bottom-bg.png") no-repeat center / contain;
+	margin-top: 30px;
+}
+
+.table-heading {
+	float: left;
+	width: 100%;
+	padding-top: 110px;
+	text-align: center;
+}
+
+.table-caption {
+	font-family: var(--secondary-font);
+	font-size: 29.17px;
+	color: var(--primary-color);
+	text-transform: uppercase;
+}
+
+.table-title {
+	font-size: 50px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-top: 20px;
+}
+
+.table-form {
+	float: left;
+	width: 100%;
+	padding: 0px 270px;
+	margin-top: 85px;
+}
+
+.form-control {
+	display: flex;
+	margin-left: -2.5rem;
+	flex-wrap: wrap;
+}
+
+.form-control:not(:first-child) {
+	margin-top: 2.5rem;
+}
+
+.input-box {
+	width: calc(50% - 2.5rem);
+	margin-left: 2.5rem;
+}
+
+.input-box input {
+	width: 100%;
+	display: inline-block;
+	height: 65px;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	padding: 24px 15px;
+	font-size: 20.83px;
+	font-family: var(--secondary-font);
+	text-transform: uppercase;
+	outline: none;
+}
+
+.input-box input[type="submit"] {
+	background-color: var(--third-color);
+	font-weight: bold;
+	color: white;
+	cursor: pointer;
+	transition: all .25s linear;
+}
+
+.input-box input[type="submit"]:hover {
+	color: var(--primary-color);
+	background: var(--secondary-color);
+}
